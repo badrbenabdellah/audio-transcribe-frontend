@@ -1,12 +1,39 @@
-# React + Vite
+# 🎧 Audio Transcribe Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Audio Transcribe Frontend** est une interface web moderne conçue pour permettre aux utilisateurs de téléverser des fichiers audio et d'obtenir leur transcription textuelle, grâce à un backend d’intelligence artificielle.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Fonctionnalités
 
-## Expanding the ESLint configuration
+- 🖼️ Interface utilisateur simple et intuitive
+- 🔊 Téléversement de fichiers audio (MP3, WAV, etc.)
+- 🧠 Intégration avec un backend de transcription automatique
+- 📄 Affichage du texte transcrit
+- 🌐 Responsive et adaptée aux appareils mobiles
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies utilisées
+
+- **React.js** (framework principal)
+- **Tailwind CSS** (pour le design et la mise en page)
+- **Axios** (pour les requêtes HTTP vers le backend)
+- **Vite** ou **Create React App** (selon ton setup)
+
+---
+
+## 📦 Installation
+
+1. **Cloner le dépôt**
+   ```bash
+   git clone https://github.com/badrbenabdellah/audio-transcribe-frontend.git
+   cd audio-transcribe-frontend
+
+2. **Installer les dépendances**
+  ```bash
+   npm install
+
+   Puis Lancer le serveur de développement
+
+   npm run dev
